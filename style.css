@@ -1,0 +1,226 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	position:sticky;
+	top:0;
+	z-index:5;
+}
+.navbar
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	padding: 0 !important;
+}
+.navbar-brand img
+{
+    height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding:0 10px;
+}
+.navbar-nav li a
+{
+  color:#fff !important;/*--mobile mate navbar touch krta menu right baju open thase-->*/
+  font-weight:600;
+  float: right;
+  text-align: left;
+}
+.fa-bars
+{
+	color: #fff; /*--barrs no color whilte krva mate--*/
+	font-size:30px !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+/*---------BANNERS SECTION------------*/
+#banner
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+	color:#fff;
+	padding-top:5%;
+	
+}
+.titl
+{
+	font-size:40px;
+	font-weight:600;
+	margin-top:100px;
+
+}
+.play-btn
+{
+	width:45px;
+	margin:20px;
+}
+
+#banner a
+{
+	color:#fff;
+}
+/*----------services section----------*/
+#services
+{
+	padding:80px 0px;
+}
+.service-img
+{
+	width:300px;
+	margin-top:20px;
+}
+.title::before
+{
+	
+	content:" ";/*after ne before lakhine content lkhvu pde */
+	background:#7b1798;
+	height:5px;
+	width:600px;
+	display:block;/* block create karva mate diaplay lakhvathi j line display thase*/
+    margin-left: auto;
+    margin-right: auto;
+    transform:translateY(68px);
+}
+.title::after
+{
+	
+	content:" ";/*after ne before lakhine content lkhvu pde */
+	background:#7b1798;
+	height:15px;
+	width:350px;
+	display:block;/* block create karva mate diaplay lakhvathi j line display thase*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:40px;
+    transform:translateY(8px);
+
+}
+#services .btn
+{  
+  border:none;	
+  border-radius:20px;
+  margin-top:20px;
+  background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+#about-us
+{
+	background:#f9f9fa;
+	padding-bottom:50px;
+	padding-top:50px; 
+}
+.about-title
+{
+	font-size:40px;
+	font-weight:600;
+	margin-top:8%;
+}
+#about-us ul li
+{
+	margin:10px 0;
+}
+#about-us ul
+{
+	margin-left: 30px;
+}
+/*---------TESTIMONIAL SECTION---------------->*/
+#testimonials
+{
+	margin:100px 0;
+}
+.testimonial
+{
+	border-left:4px solid #7b1798;
+	margin-top:50px;
+	margin-bottom:50px: 
+}
+.testimonial img
+{
+	
+	margin:0 10px;
+	height:60px;
+	width:60px;
+
+}
+ /*------------socila media section-------*/
+#social-media
+{
+	background:#f8f9fa;
+	padding:100px 0;
+ }
+#social-media p
+{
+	font-size:36px;
+}
+.social-icons img
+{
+	transition:0.5s;
+	margin-right:40px;
+}/* transition:0.5s aetle jyare img pr click krie tyare img ketli sec ma upr jase te btave*/
+.social-icons a:hover img
+{
+	transform:translateY(-10px);
+}/* transform:translateY(-10px) aetle img pr cursur jta img ketli upr jase te btavse -->
+
+/*------------footer section--------------------*/
+#footer
+{
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#fff;
+}
+.footer-box
+{
+	padding:20px;
+}
+.footer-box img
+{
+   width:120px;
+   margin-bottom:20px;
+}
+.footer-box p
+{
+	color: #fff;
+}
+.footer-box .fa
+{
+	margin-left:88px;
+	font-size:25px;
+	height:40px;
+	width:40px;
+	text-align: center;
+	padding-top:7px;
+	border-radius:3px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+.footer-box .form-control
+{
+	box-shadow:none;
+	border:none;
+	margin-left:150px;
+	margin-top:25px;
+	max-width:250px;
+
+}
+.footer-box .btn-primary
+{
+	margin-left:150px;
+	border:none;
+	box-shadow:none;
+	margin-top:25px;
+	background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+
+.copyright
+{
+	margin-bottom:0;
+	padding-bottom:20px;
+	text-align:center;
+}
